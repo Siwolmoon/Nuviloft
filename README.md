@@ -2,13 +2,15 @@
 
 macOS 27용 메뉴바 정리 앱입니다. 표시할 앱을 고르고, 숨김 상태를 레이아웃으로 저장해 다시 적용할 수 있습니다.
 
-**[Nuviloft 0.1 다운로드](https://github.com/Siwolmoon/Nuviloft/releases/tag/v0.1.0)**
+**[Nuviloft 0.1.1 다운로드](https://github.com/Siwolmoon/Nuviloft/releases/tag/v0.1.1)**
+
+0.1.1은 재설치 후 권한을 켜도 앱이 인식하지 못하던 문제를 수정한 버전입니다. 기존 0.1.0을 사용 중이라면 새 DMG로 교체하세요.
 
 ## 설치
 
 - macOS 27 이상·Apple Silicon(M 시리즈) Mac에서 사용하세요.
-- 릴리스의 DMG를 열고 `Nuviloft.app`을 `Applications` 폴더로 드래그하세요.
-- 앱에서 안내하는 **손쉬운 사용** 권한을 허용하세요.
-- 이 버전은 Apple Developer ID 서명·공증이 없어 처음 실행 시 차단될 수 있습니다. 출처를 확인한 뒤 [Apple의 '그래도 열기' 안내](https://support.apple.com/ko-kr/102445)를 따라주세요.
+- 릴리스의 DMG를 열고 `Nuviloft.app`을 `Applications` 폴더로 드래그하세요. 기존 앱은 먼저 종료하세요.
+- 앱에서 안내하는 **기기 제어 및 데이터 접근(손쉬운 사용)** 권한을 허용하고, 앱의 새로고침 버튼을 누르세요.
+- Apple Developer ID 서명·공증이 없어 처음 실행 시 차단될 수 있습니다. 출처를 확인한 뒤 [Apple의 그래도 열기 안내](https://support.apple.com/ko-kr/102445)를 따라주세요.
 
 현재 이 저장소는 실행 파일 배포용입니다. GitHub가 자동 제공하는 `Source code` 압축 파일에는 앱 소스가 들어 있지 않습니다.
